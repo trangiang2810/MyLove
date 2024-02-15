@@ -1,0 +1,40 @@
+.container {
+  position: fixed;
+  left: 0;
+  // top: 64px;
+  width: max(min(120px, 10%), 92px);
+  border-right: 1px solid #e7e4e1;
+  box-shadow: 0 10px 65px hsla(26, 47%, 97%, 0.8);
+  height: 100vh;
+  font-size: 1.4rem;
+  .menu {
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1.5rem 0.5rem;
+      cursor: pointer;
+      gap: 0.5rem;
+      &:hover {
+        background-color: rgb(255, 214, 221);
+      }
+      &:active {
+        background-color: pink;
+      }
+      .icon {
+        background: rgb(207, 206, 206);
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius: 100%;
+        color: rgb(89, 88, 88);
+      }
+    }
+  }
+}
+.selected {
+  background-color: pink;
+}

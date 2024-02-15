@@ -1,0 +1,21 @@
+.container {
+  margin: 0 1rem;
+  .title {
+    border-bottom: 1px solid #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+  }
+  .item {
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+    padding: 0.4rem 1rem;
+    margin: 0.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    span {
+      font-size: 1.6rem;
+    }
+  }
+}
